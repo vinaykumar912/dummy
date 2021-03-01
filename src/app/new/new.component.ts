@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new.component.css']
 })
 export class NewComponent implements OnInit {
+public greetings="";
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
+onclick(){
+  this.greetings="chandu is a good boy";
+}
 }
