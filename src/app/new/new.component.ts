@@ -13,6 +13,7 @@ public vinay="good";
 public status=false;
 public boy="boy";
 public show=true;
+public mychoice="one";
 
   constructor() { }
 
