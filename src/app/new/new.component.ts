@@ -21,6 +21,10 @@ public person={
   "secondname":"helpline"
 }
 public date=new Date();
+public array=[
+  {"id":1 , "name":"vinay" , "course":"Angular"},
+  {"id":2 , "name":"busha" , "course":"React"}
+];
   constructor() { }
 
   ngOnInit(): void {
