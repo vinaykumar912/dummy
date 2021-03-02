@@ -14,7 +14,12 @@ public status=false;
 public boy="boy";
 public show=true;
 public mychoice="one";
-
+public subject=["Angular","React","Vue","Bootstrap"];
+public paper="lovelyboy";
+public person={
+  "firstname":"rsk",
+  "secondname":"helpline"
+}
   constructor() { }
 
   ngOnInit(): void {

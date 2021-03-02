@@ -25,11 +25,27 @@
 
     <div [ngSwitch]="mychoice">
         <div class="switchcase">
-             <div *ngSwitchCase="'one'">first one</div>
-             <div *ngSwitchCase="'two'">first one</div>
-             <div *ngSwitchCase="'three'">first one</div>
-             <div *ngSwitchDefault>Invalid choice</div>
+            <div *ngSwitchCase="'one'">{{vinay}}</div>
+            <div *ngSwitchCase="'two'">Second one</div>
+            <div *ngSwitchCase="'three'">Third one</div>
+            <div *ngSwitchDefault>Invalid choice</div>
         </div>
     </div>
+
+    <div *ngFor="let x of subject;index as i">
+        <h1>{{i}}-->{{x}}</h1>
+    </div>
+
+    <p>{{paper | uppercase}}</p>
+    <p>{{paper | lowercase}}</p>
+    <p>{{paper | titlecase}}</p>
+    <p>{{paper | slice:3}}</p>
+    <p>{{paper | slice:3:5}}</p>
+    <P>{{person | json}}</P>
+
+    <P>{{5.698 | number : '1.2-3'}}</P>
+    <P>{{5.698 | number : '2.4-5'}}</P>
+    <P>{{5.698 | number : '3.2-4'}}</P>
+
 </body>
 </html>
