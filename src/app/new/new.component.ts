@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NewComponent implements OnInit {
 public greetings="";
 public chandu="";
+public anil="";
 
   constructor() { }
 
@@ -15,6 +16,8 @@ public chandu="";
   }
 onclick(){
   this.greetings="chandu is a good boy";
+  
   this.chandu="good boy";
+  this.anil="anil anna is a good cricketer";
 }
 }
