@@ -20,6 +20,7 @@ public person={
   "firstname":"rsk",
   "secondname":"helpline"
 }
+public date=new Date();
   constructor() { }
 
   ngOnInit(): void {
