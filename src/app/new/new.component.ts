@@ -9,6 +9,10 @@ export class NewComponent implements OnInit {
 public greetings="";
 public chandu="";
 public anil="";
+public vinay="good";
+public status=false;
+public boy="boy";
+public show=true;
 
   constructor() { }
 
